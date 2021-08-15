@@ -9,6 +9,10 @@ This is an assignment for a Flutter app with two screens.
 
 https://github.com/abhey-sujith/assessment/blob/main/abhey_bluestack_assessment_app.apk
 
+##Initial Flow Chart
+
+<img src="./Basic Flow.png" width="300">
+
 ##App Flow
 
 <img src="./login.jpeg" width="300">
