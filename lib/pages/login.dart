@@ -105,8 +105,8 @@ class Login extends StatefulWidget {
                       controller: UserNameController,
                       decoration: InputDecoration(
                           border: OutlineInputBorder(),
-                          labelText: 'Email',
-                          hintText: 'Enter valid email id as abc@gmail.com'),
+                          labelText: 'Username',
+                          hintText: 'Enter valid Username'),
                       onChanged: (username){
                         if(username!=""){
                           _formKey.currentState!.validate();
@@ -168,12 +168,12 @@ class Login extends StatefulWidget {
                     setState(() {
                       is_password_validated=false;
                     });
-                    return "Username should be atleast 3 characters";
+                    return "Password should be atleast 3 characters";
                   } else if (password.length > 11) {
                     setState(() {
                       is_password_validated=false;
                     });
-                    return "Username should not be greater than 11 characters";
+                    return "Password should not be greater than 11 characters";
                   } else{
                     setState(() {
                       is_password_validated=true;
