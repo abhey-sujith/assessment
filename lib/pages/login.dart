@@ -212,6 +212,21 @@ class Login extends StatefulWidget {
                               await _setSharedPreferencesLoggedIn();
                               Navigator.pushReplacementNamed(context, "/home");
                             }
+                            else{
+                              ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+                                content:  Row(
+                                  children: [
+                                    Padding(
+                                      padding: const EdgeInsets.only(right: 8.0),
+                                      child: Icon(Icons.error ,color: Colors.red, size: 30,),
+                                    ),
+                                    Text('Login Failed',  style: TextStyle(color: Colors.white, fontSize: 18,fontWeight:FontWeight.bold),),
+                                  ],
+                                ),
+                                backgroundColor: color,
+                                duration:  Duration(seconds: 1),
+                              ));
+                            }
                           }
 
                           },
