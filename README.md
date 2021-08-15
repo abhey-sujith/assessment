@@ -11,10 +11,10 @@ https://github.com/abhey-sujith/assessment/blob/main/abhey_bluestack_app.apk
 
 ##App Flow
 
-![alt text](./login.png)
+![alt text](./login.jpeg)
 
-![alt text](./loading.png)
+![alt text](./loading.jpeg)
 
 ![alt text](./appgif.gif)
 
-![alt text](./logout.png)
+![alt text](./logout.jpeg)
