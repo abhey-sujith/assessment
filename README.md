@@ -7,7 +7,7 @@ This is an assignment for a Flutter app with two screens.
 
 ##App link 
 
-https://github.com/abhey-sujith/assessment/blob/main/abhey_bluestack_assessment_app.apk
+https://github.com/abhey-sujith/assessment/blob/main/abhey_bluestack_assignment_app.apk
 
 ##Initial Flow Chart
 
