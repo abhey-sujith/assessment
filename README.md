@@ -1,19 +1,19 @@
 # Assignment
 
-This is an assignment for a Flutter app with two screens.
+This is an assignment for a Flutter app with two screens and provider as state management.
 
 ## Getting Started
 
 
-##App link 
+## App link 
 
 https://github.com/abhey-sujith/assessment/blob/main/abhey_bluestack_assignment_app.apk
 
-##Initial Flow Chart
+## Initial Flow Chart
 
 <img src="./Basic Flow.png" width="300">
 
-##App Flow
+## App Flow
 
 <img src="./login.jpeg" width="300">
 
